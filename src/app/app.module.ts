@@ -10,6 +10,13 @@ import { PipeCustomizadoComponent } from './pipe-customizado/pipe-customizado.co
 import { RenderizandoListasComponent } from './renderizando-listas/renderizando-listas.component';
 import { TwoWayComponent } from './two-way/two-way.component';
 import { FormsModule } from '@angular/forms';
+import { ComponentePersonalizadoComponent } from './componente-personalizado/componente-personalizado.component';
+import { ComponentePaiComponent } from './componente-pai/componente-pai.component';
+import { ComponenteFilhoComponent } from './componente-filho/componente-filho.component';
+import { ExemploServicos1Component } from './exemplo-servicos1/exemplo-servicos1.component';
+import { ExemploServicos2Component } from './exemplo-servicos2/exemplo-servicos2.component';
+import { CicloDeVidaComponent } from './ciclo-de-vida/ciclo-de-vida.component';
+import { CicloDeVidaPaiComponent } from './ciclo-de-vida-pai/ciclo-de-vida-pai.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +26,14 @@ import { FormsModule } from '@angular/forms';
     MultiplicaPorPipe,
     PipeCustomizadoComponent,
     RenderizandoListasComponent,
-    TwoWayComponent
+    TwoWayComponent,
+    ComponentePersonalizadoComponent,
+    ComponentePaiComponent,
+    ComponenteFilhoComponent,
+    ExemploServicos1Component,
+    ExemploServicos2Component,
+    CicloDeVidaComponent,
+    CicloDeVidaPaiComponent
   ],
   imports: [
     BrowserModule,
