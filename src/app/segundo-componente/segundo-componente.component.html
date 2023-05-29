@@ -1,3 +1,5 @@
 <h2>Getting new skills in templates with angular!</h2>
-<p>My name is {{nome | uppercase}}!</p>
-<p>I was born in {{dataNascimento | date:"dd/mm/yyyy"}}</p>
+<img [src]="urlImagem" width="200rem" height="200rem">
+<p>Meu nome é {{nome | uppercase}}!</p>
+<p>Eu nasci em{{dataNascimento | date:"dd/MM/yyyy"}}</p>
+<button (click)="mostrarDataNascimento()" type="button">Mostrar data de nascimento</button>

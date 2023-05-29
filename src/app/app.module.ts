@@ -5,8 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { primeiroComponente } from './primeiro-components/primeiro-componente.components';
 import { SegundoComponenteComponent } from './segundo-componente/segundo-componente.component';
-import { MultiplicaPorPipe } from './multiplica-por.pipe';
+import { MultiplicaPorPipe } from './pipe-customizado/multiplica-por.pipe';
 import { PipeCustomizadoComponent } from './pipe-customizado/pipe-customizado.component';
+import { RenderizandoListasComponent } from './renderizando-listas/renderizando-listas.component';
+import { TwoWayComponent } from './two-way/two-way.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,11 +17,14 @@ import { PipeCustomizadoComponent } from './pipe-customizado/pipe-customizado.co
     primeiroComponente,
     SegundoComponenteComponent,
     MultiplicaPorPipe,
-    PipeCustomizadoComponent
+    PipeCustomizadoComponent,
+    RenderizandoListasComponent,
+    TwoWayComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
